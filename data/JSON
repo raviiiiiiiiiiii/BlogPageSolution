@@ -1,0 +1,4 @@
+mkdir -p data
+echo '[]' > data/users.json
+echo '[]' > data/posts.json
+echo '[]' > data/comments.json
