@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(180deg, #2C1B47, #1F133F, #0F0924); /* Galaxy gradient */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#content {
+  padding: 20px;
+  min-height: calc(100vh - 140px);
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-left: 20px;
+  padding: 5px;
+  border-top: 1px solid #eee;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p, footer span {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-copyright {
+  margin-right: 30px;
+}
+
+button {
+  background-color: #2C1B47;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #3B1E66;
+}
+
+input, #edit-content, #post-content, #editor {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#edit-post-form, #create-post-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-box {
+  background-color: #1F133F;
+  color: white;
+  border: 1px solid #3B1E66;
+  padding: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
